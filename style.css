@@ -70,7 +70,6 @@ div.title h2:first-of-type {
     color: #FFFFFF;
     text-shadow: 0em 0em 0.18em rgb(163 163 163);
     font-weight: 100;
-    word-wrap: break-word;
 }
 
 div.title h2:nth-of-type(2) {
