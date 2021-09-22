@@ -70,6 +70,7 @@ div.title h2:first-of-type {
     color: #FFFFFF;
     text-shadow: 0em 0em 0.18em rgb(163 163 163);
     font-weight: 100;
+    word-wrap: break-word;
 }
 
 div.title h2:nth-of-type(2) {
@@ -96,7 +97,48 @@ div.events h2 {
     font-size: 16px;
     /**line-height: 0em;**/
     text-align: center;
-    /**padding-bottom: 60px;**/
+    padding-bottom: 60px;
     background-position-x: center;
+
+}
+div.title h2 {
+    user-select: none;
+    margin: 0;
+}
+
+div.title h2:first-of-type {
+    font-family: 'HavanaSunset Sans Filled',Helvetica,Arial,Lucida,sans-serif;
+    font-size: 100px;
+    color: #FFFFFF;
+    text-shadow: 0em 0em 0.18em rgb(255 255 255 / 64%);
+    font-weight: 100;
+    word-wrap: break-word;
+}
+
+div.title h2:nth-of-type(2) {
+    font-family: 'HavanaSunset Script',Helvetica,Arial,Lucida,sans-serif;
+    font-size: 100px;
+    color: #ff16e3;
+    text-shadow: 0em 0em 0.15em #ffffff;
+    font-weight: 100;
+    position: relative;
+    top: -90px;
+}
+
+div.title h2:nth-of-type(3) {
+    font-family: 'Roboto Mono', monospace;
+    color: #fff;
+    font-size: 24px;
+    position: relative;
+    top: -70px;
+}
+
+div.events h2 {
+    font-family: 'Roboto Mono', monospace;
+    color: #fff;
+    font-size: 16px;
+    line-height: 1em;
+    margin-bottom: 30px;
+    text-align: center;
 
 }
