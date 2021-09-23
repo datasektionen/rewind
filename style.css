@@ -147,3 +147,13 @@ a:link {
     color: #fff !important;
     text-decoration: none !important;
 }
+
+/* visited link */
+a:visited {
+  color: #FAF9F6 !important;
+}
+
+/* mouse over link */
+a:hover {
+  color: #E83D84 !important;
+}
