@@ -142,3 +142,8 @@ div.events h2 {
     text-align: center;
 
 }
+
+.events a {
+    color: #fff;
+    text-decoration: none;
+}
