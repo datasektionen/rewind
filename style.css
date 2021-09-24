@@ -91,59 +91,39 @@ div.title h2:nth-of-type(3) {
     top: -70px;
 }
 
-div.events h2 {
+/*div.events h2 {*/
+/*    font-family: 'Roboto Mono', monospace;*/
+/*    color: #fff;*/
+/*    font-size: 16px;*/
+/*    !**line-height: 0em;**!*/
+/*    text-align: center;*/
+/*    padding-bottom: 60px;*/
+/*    background-position-x: center;*/
+
+/*}*/
+
+h3 {
+    font-family: 'HavanaSunset Sans Filled',Helvetica,Arial,Lucida,sans-serif;
+    text-align: center;
+    margin-top: 30px;
+    text-decoration: #fff;
+    text-decoration-line: blink;
+    font-size: 25px;
+    color: #fff;
+}
+
+h4 {
     font-family: 'Roboto Mono', monospace;
     color: #fff;
     font-size: 16px;
     /**line-height: 0em;**/
     text-align: center;
-    padding-bottom: 60px;
+    padding-bottom:20px;
     background-position-x: center;
-
-}
-div.title h2 {
-    user-select: none;
-    margin: 0;
 }
 
-div.title h2:first-of-type {
-    font-family: 'HavanaSunset Sans Filled',Helvetica,Arial,Lucida,sans-serif;
-    font-size: 100px;
-    color: #FFFFFF;
-    text-shadow: 0em 0em 0.18em rgb(255 255 255 / 64%);
-    font-weight: 100;
-    word-wrap: break-word;
-}
-
-div.title h2:nth-of-type(2) {
-    font-family: 'HavanaSunset Script',Helvetica,Arial,Lucida,sans-serif;
-    font-size: 100px;
-    color: #ff16e3;
-    text-shadow: 0em 0em 0.15em #ffffff;
-    font-weight: 100;
-    position: relative;
-    top: -90px;
-}
-
-div.title h2:nth-of-type(3) {
+a {
     font-family: 'Roboto Mono', monospace;
-    color: #fff;
-    font-size: 24px;
-    position: relative;
-    top: -70px;
-}
-
-div.events h2 {
-    font-family: 'Roboto Mono', monospace;
-    color: #fff;
-    font-size: 16px;
-    line-height: 1em;
-    margin-bottom: 30px;
-    text-align: center;
-
-}
-
-a:link {
     color: #fff !important;
     text-decoration: none !important;
 }
@@ -159,3 +139,5 @@ a:hover {
     color: #E83D84 !important;
     text-decoration: none !important;
 }
+
+
