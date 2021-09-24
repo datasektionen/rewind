@@ -101,46 +101,31 @@ div.events h2 {
     background-position-x: center;
 
 }
-div.title h2 {
-    user-select: none;
-    margin: 0;
-}
 
-div.title h2:first-of-type {
+h3 {
     font-family: 'HavanaSunset Sans Filled',Helvetica,Arial,Lucida,sans-serif;
-    font-size: 100px;
-    color: #FFFFFF;
-    text-shadow: 0em 0em 0.18em rgb(255 255 255 / 64%);
-    font-weight: 100;
-    word-wrap: break-word;
-}
-
-div.title h2:nth-of-type(2) {
-    font-family: 'HavanaSunset Script',Helvetica,Arial,Lucida,sans-serif;
-    font-size: 100px;
-    color: #ff16e3;
-    text-shadow: 0em 0em 0.15em #ffffff;
-    font-weight: 100;
-    position: relative;
-    top: -90px;
-}
-
-div.title h2:nth-of-type(3) {
-    font-family: 'Roboto Mono', monospace;
+    text-align: center;
+    margin-top: 30px;
+    text-decoration: #fff;
+    text-decoration-line: blink;
+    font-size: 25px;
     color: #fff;
-    font-size: 24px;
-    position: relative;
-    top: -70px;
 }
 
-div.events h2 {
+h4 {
     font-family: 'Roboto Mono', monospace;
     color: #fff;
     font-size: 16px;
-    line-height: 1em;
-    margin-bottom: 30px;
+    /**line-height: 0em;**/
     text-align: center;
+    padding-bottom:20px;
+    background-position-x: center;
+}
 
+a {
+    font-family: 'Roboto Mono', monospace;
+    color: #fff;
+    text-decoration-style: dashed;
 }
 
 a:link {
